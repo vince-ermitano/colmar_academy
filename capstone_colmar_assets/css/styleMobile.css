@@ -1,0 +1,135 @@
+@media only screen and (max-width: 480px) {
+    .mobile {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header .navigation{
+        display: none;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    header .mobile {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .learn {
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .learn img {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    .text {
+        text-align: center;
+        padding: 32px 0;
+    }
+
+    .learn p {
+        text-align: left;
+    }
+
+    .learn .pixel50 {
+        font-size: 2.5rem;
+    }
+
+    .learn .pixel24 {
+        font-size: 1.25rem;
+    }
+
+    /*Practicing Section*/
+    .practicing {
+        height: min-content;
+    }
+
+    .practicing div:first-child {
+        margin-top: 1rem;
+    }
+
+    .tri {
+        flex-direction: column;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+
+    .tri .summary{
+        flex-direction: column;
+        line-height: 2rem;
+        justify-content: center;
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .tri .summary p {
+        margin: 0 1rem;
+    }
+
+    .tri img {
+        width: 100%;
+    }
+
+    .tri p:first-child{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .tri.lecture {
+        background-color: rgb(230, 230, 230);
+    }
+
+    .lecture {
+        background-color: white;
+    }
+
+    /*Start Learning Section*/
+    .learning {
+        background-color: white;
+        color: rgb(70, 65, 65);
+        font-weight: bold;
+    }
+    .learning h1 {
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .learning .cell_space {
+        justify-content: center;
+    }
+
+    .learning .cell_space .tab {
+        height: auto;
+        width: 90%;
+        background-color: lightgray;
+        margin-bottom: .5rem;
+    }
+    .learning .cell_space .tab span{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    /*Thesis Exhibit*/
+    .thesis video {
+        width: 100%;
+    }
+
+    /*FOOTER*/
+    footer {
+        margin: 3rem 0 2rem 0;
+    }
+    footer span{
+        padding-left: 2rem;
+    }
+}

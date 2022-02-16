@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lightgrey {
+    color: lightgray;
+}
+
+.gray {
+    color: rgb(70, 65, 65);
+}
+
+.almostlightgray {
+    color: rgb(83, 77, 77);
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.pixel24 {
+    font-size: 1.5rem;
+}
+
+.pixel50 {
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.mobile {
+    display: none;
+}
+
+/*header section*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.logo {
+    padding-left: 1.5rem;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header table {
+    display: inline-block;
+}
+
+.navigation tr td {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1rem;
+}
+
+header p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*learn something new everyday section*/
+.learn img {
+    padding: 2rem 1.5rem;
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* .banner {
+    display: inline-flex;
+    flex-basis: 539px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.learn {
+    height: 46.6875rem;
+    background-color: lightgray;
+    flex-basis: 100%;
+}
+
+.learn .text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    /* display: inline-flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text p {
+    margin: 16px;
+}
+.text h1 {
+    margin: 1rem;
+}
+
+.learn .button {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    background-color: rgb(70, 65, 65);
+    margin: 24px;
+}
+
+.learn button {
+    background-color: gray;
+    padding: .5rem 3.75rem;
+    margin: 1rem;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    transition: background-color 300ms ease-in-out;
+}
+
+.start_here {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+/*PRACTICING SECTION*/
+.practicing {
+    height: auto;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-items: flex-start;
+    padding-top: 32px;
+}
+.practicing .left_section {
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.book_img {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.book_img img {
+    width: 100%;
+}
+
+.practicing .left_section .text {
+    margin: 0 2rem 2rem 2rem;
+    text-align: left;
+}
+
+.practicing .left_section h1 {
+    width: 100%;
+    text-align: left;
+}
+
+.practicing .right_section {
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.practicing .subheader {
+    padding-bottom: 1.25rem;
+    color: rgb(70, 65, 65);
+}
+
+.orientation {
+    align-items: center;
+}
+
+.campus {
+    align-items: center;
+}
+
+.lecture {
+    align-items: center;
+    background-color: lightgray;
+}
+
+.square {
+    width: 35%;
+    height: auto;
+}
+
+.square img {
+    width: 100%;
+}
+
+.summary {
+    width: 65%;
+    height: auto;
+    margin-left: 1rem;
+}
+
+/*Start Learning Section*/
+.learning {
+    height: auto;
+    background-color: rgb(212, 212, 212);
+    color:rgb(155, 154, 154);
+    padding-bottom: 2rem;
+}
+
+.learning h1 {
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(70, 65, 65);
+}
+.learning .cell {
+    background-color: white;
+    display: inline-flex;
+    width: 400px;
+    height: auto;
+    margin: 2rem 1rem 1rem 1rem;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.learning .subheader {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    color: rgb(70, 65, 65);
+}
+
+.learning .courses {
+    padding-bottom: .5rem;
+}
+
+.learning .lastline {
+    padding-bottom: 1.5rem;
+}
+.learning .cell span {
+    /* text-align: center; */
+    padding-left: 2rem;
+    line-height: 1.5rem;
+}
+
+.learning .cell img{
+    height: auto;
+    width: 100%;
+}
+
+.learning .cell_space {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*Thesis Exhibit*/
+.thesis_header {
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(70, 65, 65);
+    background-color: rgb(240, 240, 240);
+}
+
+.back_lightgray {
+    background-color: rgb(240, 240, 240);
+}
+
+.thesis .rectangle {
+    background-color: lightgray;
+}
+
+.thesis .rectangle .square{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.thesis .rectangle .square img {
+    padding: 1rem;
+}
+
+.thesis .campus {
+    background-color: rgb(240, 240, 240);
+}
+
+.thesis .orientation {
+    margin-bottom: 1rem;
+}
+
+.practicing .left_section video {
+    width: 100%;
+}
+
+/*FOOTER*/
+footer {
+    padding: 2rem 0;
+}
+footer span{
+    padding-left: 3rem;
+}
+
+/*MOBILE*/
+/* @media only screen and (max-width: 480px) {
+    header .navigation{
+        display: none;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    header .mobile {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .learn {
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .learn img {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    .text {
+        text-align: center;
+        padding: 32px 0;
+    }
+
+} */
+
+/* .learn a {
+    display: flex;
+    width: 50%;
+    height: 10%;
+    justify-content: center;
+    background-color: gray;
+    margin: 24px;
+} */
+
+/* .learn .button p{
+    padding: 8px 0;
+} */
